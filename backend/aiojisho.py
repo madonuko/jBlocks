@@ -21,7 +21,7 @@ class Client:
     VERSION = 1
 
     def __init__(self):
-        base_url = f'https://{Client.DOMAIN}/api/v{Client.VERSION}'
+        base_url = f'https://{self.DOMAIN}/api/v{self.VERSION}'
         self._base_url = base_url
 
     @staticmethod
